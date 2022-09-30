@@ -1,0 +1,1103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #777;
+  font-size: 15px;
+  font-family: Segoe UI;
+}
+
+section {
+  margin-bottom: -100px;
+}
+
+h2 {
+  color: #163da6;
+  font-weight: bolder;
+  margin: 15px 0 30px 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item-right2,
+  .flex-item-right {
+    flex: 100%;
+  }
+  .flex-item-left2,
+  .flex-item-left {
+    flex: 100%;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.flex-item-left2 {
+  background-color: white;
+  padding: 10px;
+  flex: 30%;
+}
+
+.flex-item-right2 {
+  padding: 10px;
+  flex: 70%;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+
+textarea {
+  resize: none;
+}
+
+p {
+  font-size: 15px;
+  font-family: Segoe UI;
+}
+
+.containerr {
+  padding: 80px 175px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #163da6;
+  /*background-color: #EFF3FF;*/
+  color: #f1f1f1;
+  border-radius: 25%;
+  transition: 0.2s;
+}
+.btn:hover,
+.btn:focus {
+  border: 1px solid #163da6;
+  background-color: #fff;
+  color: #163da6;
+}
+
+/*navigasi bar*/
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: white;
+  border: 0;
+  font-size: 13px !important;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar li a,
+.navbar .navbar-brand {
+  color: grey !important;
+}
+.navbar-nav li a:hover {
+  color: #107faa !important;
+}
+.navbar-nav li.active a {
+  color: #107faa !important;
+  font-weight: bolder;
+}
+.open .dropdown-toggle {
+  color: #107faa;
+  background-color: lightgrey !important; /*bg kalo dropdown di klik*/
+}
+.dropdown-menu li a {
+  color: #000 !important;
+  letter-spacing: 0;
+}
+.dropdown-menu li a:hover {
+  background-color: lightgrey !important;
+  color: #107faa;
+}
+
+/*carousel banner*/
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+.bg-1 {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+.bg-1 h3 {
+  color: #fff;
+}
+.bg-1 p {
+  font-style: italic;
+}
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/*about*/
+
+/*test*/
+#test p {
+  padding: 0 30px 15px 30px;
+}
+
+
+/*pemesanan*/
+.pemesanan {
+    margin: 75px auto;
+}
+
+
+.pemesanan h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Segoe UI;
+    color: #163DA6;
+    margin-bottom: 50px;
+}
+
+.pemesanan hr {
+    width: 3%;
+    height: 3px;
+    margin: -30px auto;
+}
+
+.pemesanan form {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 19%;
+}
+
+.pemesanan input[type=number],
+.pemesanan select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pemesanan input[type=submit] {
+    background-color: #163DA6;
+    border: 2px solid #163DA6;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    /*    float: right;*/
+}
+
+.pemesanan input[type=submit]:hover {
+    background-color: white;
+    color: #163DA6;
+    transition: 0.5s;
+}
+
+.pemesanan .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding-right: 3%;
+}
+
+.pemesanan .col-50 {
+    padding-right: 3%;
+    float: left;
+    width: 35%;
+}
+
+.pemesanan .col-gambar {
+    text-align: center;
+}
+
+.pemesanan #image_product {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 5px 10px #888888;
+}
+
+.pemesanan .table {
+    text-align: center;
+}
+
+.pemesanan #table_order {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+
+.pemesanan th {
+    background: #163DA6;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.pemesanan td,
+th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.pemesanan tr:hover {
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+.pemesanan #hidden_button{
+    margin-top: 40px;
+}
+
+.pemesanan #buttona {
+    margin: 10px;
+    background-color: #5E634E;
+    border: 2px solid #5E634E;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.pemesanan #buttona:hover {
+    background-color: transparent;
+    border: 2px solid #5E634E;
+    color: #5E634E;
+    transition: 0.5s;
+}
+
+.pemesanan #buttonb {
+    background-color: #163DA6;
+    border: 2px solid #163DA6;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.pemesanan #buttonb:hover {
+    background-color: transparent;
+    border: 2px solid #163DA6;
+    color: #163DA6;
+    transition: 0.5s;
+}
+
+/*service*/
+
+.layanan{
+    text-align: center;
+}
+
+.layanan h1{
+    text-transform: uppercase;
+    font-family: Segoe UI;
+}
+
+.layanan section{
+    margin-top:50px;
+}
+
+.layanan hr{
+    width: 10%;
+    margin: auto;
+    height: 5px;
+    background-color: whitesmoke;
+}
+
+
+/*kontak*/
+.form-control {
+  border-radius: 0;
+}
+
+/*pusat informasi*/
+.nav-tabs li a {
+  color: #777;
+}
+
+/*profile*/
+#profile .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#profile .thumbnail {
+  padding: 50px;
+  text-align: justify;
+}
+
+/*layanan*/
+#search {
+  /*main search*/
+  display: none;
+}
+
+.search {
+  background-color: #f7f7f7;
+}
+
+.layanan {
+  margin: 50px auto;
+}
+
+.layanan .flex-container {
+  margin: 50px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.layanan .flex-item {
+  border: 1px solid lightgrey;
+  background-color: white;
+  margin: 20px;
+  flex: 20%;
+  height: 475px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.layanan .flex-item:hover {
+  border: 1px solid grey;
+}
+
+.layanan .flex-item img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.layanan .flex-item h6 {
+  font-size: 15px;
+  font-family: Segoe UI;
+  text-align: left;
+  margin: 5px 10px;
+}
+
+.layanan .flex-item p {
+  font-size: 13px;
+  font-family: Segoe UI;
+  text-align: left;
+  margin: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .layanan .flex-container .flex-item {
+    flex: 100%;
+  }
+  .layanan .flex-item {
+    height: 400px;
+  }
+
+  .layanan .flex-item img {
+    height: 200px;
+  }
+}
+
+/*keterkaitan*/
+#keterkaitan .thumbnail {
+  padding: 50px;
+  text-align: justify;
+}
+
+ol {
+  margin: 30px;
+}
+
+ol li,
+#keterkaitan ul li {
+  margin: 5px;
+}
+
+ol li h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#keterkaitan h3 {
+  font-size: 15px;
+}
+
+#keterkaitan h4 {
+  font-weight: bolder;
+}
+
+#keterkaitan p {
+  margin: 0;
+}
+
+#keterkaitan ul {
+  margin: 10px;
+}
+
+/*modal login*/
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 100ms ease-in;
+    -moz-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    max-width: 800px;
+    width: 90%;
+    position: relative;
+    margin: 5% auto;
+    padding: 0;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.close {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f26d7d;
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 34px;
+    z-index: 9999;
+    height: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    padding-top: 5px;
+}
+
+.close:hover {
+    background: #fa3f6f;
+}
+
+/*form login and register*/
+
+.modalDialog section {
+    position: relative;
+    /*    background-color: #f8dd30;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modalDialog section .container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.modalDialog section .container .user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.modalDialog section .container .user .imgBx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #ff0;
+    transition: 0.5s;
+}
+
+.modalDialog section .container .user .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modalDialog section .container .user .formBx {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+.modalDialog section .container .user .formBx form h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.modalDialog section .container .user .formBx form input {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background: #f5f5f5;
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.modalDialog section .container .user .formBx form input[type='submit'] {
+    max-width: 100%;
+    background: #163DA6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.modalDialog section .container .user .formBx form .signup {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.modalDialog section .container .user .formBx form .signup a {
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: #163DA6;
+}
+
+.modalDialog section .container .signupBx {
+    pointer-events: none;
+}
+
+.modalDialog section .container.active .signupBx {
+    pointer-events: initial;
+}
+
+.modalDialog section .container .signupBx .formBx {
+    left: 100%;
+}
+
+.modalDialog section .container.active .signupBx .formBx {
+    left: 0;
+}
+
+.modalDialog section .container .signupBx .imgBx {
+    left: -100%;
+}
+
+.modalDialog section .container.active .signupBx .imgBx {
+    left: 0%;
+}
+
+.modalDialog section .container .signinBx .formBx {
+    left: 0%;
+}
+
+.modalDialog section .container.active .signinBx .formBx {
+    left: 100%;
+}
+
+.modalDialog section .container .signinBx .imgBx {
+    left: 0%;
+}
+
+.modalDialog section .container.active .signinBx .imgBx {
+    left: -100%;
+}
+
+@media (max-width: 991px) {
+    .modalDialog section .container {
+        max-width: 400px;
+    }
+
+    .modalDialog section .container .imgBx {
+        display: none;
+    }
+
+    .modalDialog section .container .user .formBx {
+        width: 100%;
+    }
+}
+
+/*modal logout*/
+.modalDialog2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 100ms ease-in;
+    -moz-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+    pointer-events: none;
+    text-align: center;
+}
+
+.modalDialog2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog2 > div {
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    margin: 5% auto;
+    padding: 5%;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.modalDialog2 .fa {
+    font-size: 6rem;
+    color: white;
+    background-color: #163DA6;
+    padding: 3rem;
+    border-radius: 100%;
+}
+
+.modalDialog2 .biodata {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.modalDialog2 .logout {
+    max-width: 100%;
+    background: #163DA6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+
+
+/*modal logout*/
+.modalDialog3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 100ms ease-in;
+    -moz-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog3:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog3 > div {
+    max-width: 800px;
+    width: 90%;
+    position: relative;
+    margin: 5% auto;
+    padding: 0;
+    border-radius: 3px;
+    background: #fff;
+}
+
+
+.modalDialog3 .small {
+    font-size: 12px;
+    font-size: .8rem;
+}
+
+.modalDialog3 .window {
+    height: 540px;
+    width: 800px;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.modalDialog3 .order-info {
+    height: 87%;
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    overflow: auto;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modalDialog3 .price {
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    color: #4488dd;
+}
+
+
+.modalDialog3 .order-table td:first-of-type {
+    width: 25%;
+}
+
+.modalDialog3 .order-table {
+    position: relative;
+}
+
+.modalDialog3 .line {
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ddd;
+}
+
+.modalDialog3 .order-table td:last-of-type {
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.modalDialog3 .order-info-content {
+    table-layout: fixed;
+
+}
+
+.modalDialog3 .order-info-content h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+
+}
+
+.modalDialog3 .full-width {
+    width: 100%;
+}
+
+
+.modalDialog3 .total {
+    font-size: 20px;
+    font-size: 1.3rem;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding: 3%;
+    bottom: 0px;
+    background-color: white;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modalDialog3 .total-kiri {
+    width: 25%;
+    color: #163DA6;
+}
+
+.modalDialog3 .total-kanan {
+    font-family: 'cambria';
+    width: 25%;
+    font-size: 20px;
+    float: right;
+}
+
+.modalDialog3 form {
+    
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.modalDialog3 form input[type='text'] {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background: #f5f5f5;
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.modalDialog3 form .submitButton{
+    min-width: 100%;
+    background: #163DA6;
+    color: #fff;
+    border: 3px solid #163DA6;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem 1rem;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+    bottom: 0px;
+}
+
+.modalDialog3 form .submitButton:hover {
+    background-color: transparent;
+    color: #163DA6;
+    border: 3px solid #163DA6;
+   
+}
+
+.modalDialog3 form h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+
+.modalDialog3 .credit-info {
+    background: #163DA6;
+    height: 100%;
+    width: 50%;
+    color: #eee;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    font-size: .9rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+    padding: 5% 7%;
+    position: relative;
+}
+
+.modalDialog3 .credit-info h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.close {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f26d7d;
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 34px;
+    z-index: 9999;
+    height: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    padding-top: 5px;
+}
+
+.close:hover {
+    background: #fa3f6f;
+}
+
+
+/*login register*/
+#myModal input {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+#myModal form input[type="submit"] {
+  max-width: 100%;
+  background: #163DA6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+/*footer*/
+footer {
+  margin-top: 100px;
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+.click-zoom {
+  display: inline;
+}
+
+.click-zoom input[type="checkbox"] {
+  display: none;
+}
+
+.click-zoom img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.click-zoom input[type="checkbox"]:checked ~ img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
+.modal input {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.modal form input[type="submit"] {
+  max-width: 100%;
+  background: #163DA6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
